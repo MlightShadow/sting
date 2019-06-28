@@ -8,6 +8,12 @@
 > STING是霍比特人中比尔博的佩剑
 > "I will give you a name," he said to it, "and I shall call you Sting."
 
+## vue cli
+
+```bash
+vue ui
+```
+
 ## Project setup
 
 ```bash
