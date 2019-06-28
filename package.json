@@ -11,7 +11,9 @@
     "core-js": "^2.6.5",
     "material-design-icons-iconfont": "^5.0.1",
     "vue": "^2.6.10",
-    "vuetify": "^1.5.16"
+    "vue-router": "^3.0.3",
+    "vuetify": "^1.5.16",
+    "vuex": "^3.0.1"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.8.0",
