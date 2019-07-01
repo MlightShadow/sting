@@ -6,10 +6,10 @@
       <v-spacer></v-spacer>
       <v-toolbar-items class="hidden-sm-and-down">
         <v-btn flat>
-          <router-link to="/">Home</router-link>
+          <router-link to="/">home</router-link>
         </v-btn>
         <v-btn flat>
-          <router-link to="/about">About</router-link>
+          <router-link to="/login">login</router-link>
         </v-btn>
       </v-toolbar-items>
     </v-toolbar>
@@ -50,8 +50,8 @@ export default {
     return {
       drawer: null,
       items: [
-        { title: "Home", icon: "dashboard" },
-        { title: "About", icon: "question_answer" }
+        { title: "home", icon: "dashboard" },
+        { title: "login", icon: "question_answer" }
       ]
     };
   }
