@@ -1,25 +1,20 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <Title/>
-      <router-link to="/">Home</router-link>|
-      <router-link to="/about">About</router-link>
-    </div>
-    <router-view/>
+    <toptool />
+    <router-view />
   </div>
 </template>
 
 
 <script>
-import Title from "@/components/Title.vue";
+import toptool from "@/components/toptool";
 
 export default {
   components: {
-    Title
+    toptool
   }
 };
 </script>
->
 
 <style>
 #app {
