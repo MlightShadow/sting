@@ -9,14 +9,14 @@
                 <v-flex class="frame">
                   <v-form>
                     <v-text-field
-                      v-model="form.username"
+                      v-model="login_data.name"
                       prepend-icon="person"
                       clearable
                       label="账户"
                       required
                     ></v-text-field>
                     <v-text-field
-                      v-model="form.password"
+                      v-model="login_data.password"
                       prepend-icon="lock"
                       type="password"
                       label="密码"
@@ -24,7 +24,7 @@
                     ></v-text-field>
                     <v-layout column wrap justify-end align-end>
                       <v-flex>
-                        <v-btn :loading="loginLoading">
+                        <v-btn :loading="is_loading">
                           <span slot="loader">Loading...</span>
                           登录
                         </v-btn>
@@ -46,11 +46,11 @@ export default {
   name: "login",
   data() {
     return {
-      form: {
-        username: "",
+      login_data: {
+        name: "",
         password: ""
       },
-      loginLoading: false
+      is_loading: false
     };
   },
   methods: {},
